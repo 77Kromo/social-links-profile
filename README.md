@@ -1,8 +1,8 @@
-[![Live Preview](./assets/images/screenshot.png)](https://your-live-site-url.com)
+[![Live Preview](./assets/images/screenshot.png)](https://social-pcard.netlify.app/)
 
 A responsive social links profile card component showcasing modern CSS techniques and hover interactions.
 
-🚀 [Live Demo](https://css-master-app-1.netlify.app/)
+🚀 [Live Demo](https://social-pcard.netlify.app/)
 
 ## Table of Contents
 
@@ -59,19 +59,17 @@ Users should be able to:
   width: 350px;
   margin: 70px auto;
 }
-
 ```
 
 ### HTML Structure
 
 ```
-<!-- Semantic card structure -->
 <div class="social-card">
-  <img alt="Jessica Randall's profile picture" ...>
-  <h1>Jessica Randall</h1>
-  <p>London, United Kingdom</p>
-  <!-- Interactive buttons -->
-  <button class="social-btn">GitHub</button>
+  <img alt="Jessica Randall's profile" class="social-img">
+  <h1 class="social-name">Jessica Randall</h1>
+  <div class="social-links">
+    <button class="social-btn">GitHub</button>
+  </div>
 </div>
 
 ```
