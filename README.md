@@ -1,100 +1,84 @@
-# Frontend Mentor - Social links profile solution
+[![Live Preview](./assets/images/screenshot.png)](https://your-live-site-url.com)
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+A responsive social links profile card component showcasing modern CSS techniques and hover interactions.
 
-## Table of contents
+🚀 [Live Demo](https://css-master-app-1.netlify.app/)
+
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Challenge](#challenge)
+  - [Features](#features)
+- [Built With](#built-with)
+- [What I Learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-
 
 ## Overview
 
-### The challenge
+### Challenge
 
 Users should be able to:
 
-- See hover and focus states for all interactive elements on the page
+- View optimal layout depending on their device's screen size
+- See hover states for all interactive elements
 
-### Screenshot
+### Features
 
-![](./screenshot.jpg)
+- Responsive card layout
+- Interactive button hover effects
+- Semantic HTML structure
+- Accessible color contrast
+- CSS transitions
 
+## Built With
 
+- Semantic HTML5
+- CSS Custom Properties
+- Mobile-first Workflow
+- CSS Transitions
 
+## What I Learned
 
-### Links
+### CSS Implementation
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Mobile-first workflow
-
-
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Button styling with transitions */
+.social-btn {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.social-btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
 }
+
+/* Centering technique */
+.social-card {
+  width: 350px;
+  margin: 70px auto;
+}
+
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+### HTML Structure
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```
+<!-- Semantic card structure -->
+<div class="social-card">
+  <img alt="Jessica Randall's profile picture" ...>
+  <h1>Jessica Randall</h1>
+  <p>London, United Kingdom</p>
+  <!-- Interactive buttons -->
+  <button class="social-btn">GitHub</button>
+</div>
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+```
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/77Kromo)
+- [GitHub](https://github.com/77Kromo)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+<sub>Solution by Krowey Richmond Borquaye</sub>
