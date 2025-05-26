@@ -10,6 +10,7 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: hsl(0, 0%, 8%);
+  height: 100vh;
 }
 
 .social-card {
