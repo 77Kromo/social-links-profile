@@ -10,15 +10,14 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: hsl(0, 0%, 8%);
-  height: 100vh;
 }
 
 .social-card {
   text-align: center;
-  width: 350px;
+  width: 360px;
   background-color: hsl(0, 0%, 12%);
   height: auto;
-  margin: 120px auto 100px;
+  margin: 110px auto 90px;
   padding: 30px;
   border-radius: 20px;
 }
